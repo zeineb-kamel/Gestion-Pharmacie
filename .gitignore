@@ -1,0 +1,38 @@
+# --- Java build artifacts ---
+*.class
+*.jar
+*.war
+*.ear
+*.log
+hs_err_pid*
+
+# Common build/output folders
+bin/
+out/
+build/
+dist/
+target/
+
+# --- IDE/editor files ---
+# IntelliJ
+.idea/
+*.iml
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# NetBeans
+nbproject/
+
+# VS Code
+.vscode/
+
+# macOS / Windows noise
+.DS_Store
+Thumbs.db
+
+# --- Dependencies that should not be versioned ---
+# JavaFX SDK is large; prefer documenting download path in README.
+lib/javafx-sdk-*/
