@@ -48,6 +48,10 @@ MiniProjetPharmacie/
     └── javafx-sdk-21/   # À télécharger
 ```
 
+## Diagramme de classes
+
+![Diagramme de classes](DiagClassePharmacie.png)
+
 ## Étape 1 : Télécharger les Dépendances
 
 ### 1.1 Driver Oracle JDBC (ojdbc11.jar)
